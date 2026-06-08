@@ -2,13 +2,17 @@
 
 **Explainable multimodal learning from gait video for scalable adolescent idiopathic scoliosis (AIS) screening**
 
+<div align="center">
 
+<img src="figs/image2.png" alt="ScoliDetect framework: trimodal contrastive alignment, supervised multimodal fusion, and KKM-based structural interpretability" width="100%">
 
-***a**, Trimodal contrastive pretraining aligns video, KKM, and text encoders. **b**, Supervised screening head with bidirectional video–KKM cross-attention, gated pooling, bottleneck fusion, and optional auxiliary alignment loss. **c**, Fixed-index KKM domains (motion, self-skeleton, signal cross-correlation) enabling top-k factor readouts.*
+*<strong>a</strong>, Trimodal contrastive pretraining aligns video, KKM, and text encoders. <strong>b</strong>, Supervised screening head with bidirectional video–KKM cross-attention, gated pooling, bottleneck fusion, and optional auxiliary alignment loss. <strong>c</strong>, Fixed-index KKM domains (motion, self-skeleton, signal cross-correlation) enabling top-<em>k</em> factor readouts.*
 
-[GitHub](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening)
-[Publication](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening)
-[License](LICENSE)
+</div>
+
+[![GitHub](https://img.shields.io/badge/GitHub-ScoliDetect-blue?logo=github)](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening)
+[![Publication](https://img.shields.io/badge/Publication-Under%20Review-orange)](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening)
+[![License](https://img.shields.io/badge/License-Research%20Only-red)](LICENSE)
 
 > **Release status:** This repository is under active development while our manuscript is **under review**. Pretrained weights, full training scripts, sample data, capture protocol checklist, and supplementary materials **will be released soon** upon acceptance. Check back for updates.
 
@@ -52,7 +56,7 @@ Subgroup external AUC remains stable (~0.969–0.973) across mild / moderate / s
 
 ## Architecture
 
-See the [framework figure at the top of this page](#scolidetect) or open `[figs/image2.png](figs/image2.png)` directly.
+See the [framework figure at the top of this page](#scolidetect) or open [`figs/image2.png`](figs/image2.png) directly.
 
 **a — Trimodal contrastive alignment.** Video, KKM, and weak kinematic text are encoded into a shared embedding space with pairwise contrastive losses (video–KKM, video–text, KKM–text).
 
@@ -279,7 +283,7 @@ Department of Orthopaedics & Traumatology, Li Ka Shing Faculty of Medicine, The 
 
 ## Recommended README assets (optional)
 
-The algorithm overview figure is included at `[figs/image2.png](figs/image2.png)`. Additional figures can be added under `docs/assets/` for a richer landing page:
+The algorithm overview figure is included at [`figs/image2.png`](figs/image2.png). Additional figures can be added under `docs/assets/` for a richer landing page:
 
 
 | Suggested file                     | Manuscript source                                | Purpose                        |
