@@ -1,0 +1,2 @@
+created_at,experiment,fold,split,checkpoint_path,binary_threshold_cobb,classification_prob_threshold,loss,accuracy,auc_roc,sensitivity,specificity,ppv,npv,f1,tp,tn,fp,fn,n_samples
+2026-05-27T23:19:17.553487,ablation_vivit_ww,1,test,/root/private_data/NMI_Project_Val/checkpoints/kfold5_kvt_vivit_pretrained_cobb11/fold_1/checkpoint_best.pth,11.0,0.5,0.033134729998399975,0.8223140239715576,0.9724955277280859,0.7435897588729858,0.9651162624359131,0.9747899174690247,0.0,0.8436363339424133,232,166,6,80,484

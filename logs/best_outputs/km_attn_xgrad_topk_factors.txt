@@ -1,0 +1,96 @@
+sample_0 | logit=0.449936
+  top01: factor=142, score=0.021592
+  top02: factor=8, score=0.019747
+  top03: factor=94, score=0.017568
+  top04: factor=187, score=0.015843
+  top05: factor=49, score=0.015696
+  top06: factor=158, score=0.015255
+  top07: factor=110, score=0.015107
+  top08: factor=68, score=0.014567
+  top09: factor=144, score=0.014141
+  top10: factor=42, score=0.014071
+
+sample_1 | logit=0.001110
+  top01: factor=142, score=0.020767
+  top02: factor=187, score=0.018931
+  top03: factor=94, score=0.017667
+  top04: factor=143, score=0.017633
+  top05: factor=101, score=0.015312
+  top06: factor=26, score=0.014731
+  top07: factor=217, score=0.014514
+  top08: factor=115, score=0.014225
+  top09: factor=8, score=0.014154
+  top10: factor=78, score=0.014142
+
+sample_2 | logit=0.585576
+  top01: factor=8, score=0.032861
+  top02: factor=76, score=0.031593
+  top03: factor=159, score=0.030318
+  top04: factor=25, score=0.029089
+  top05: factor=142, score=0.028712
+  top06: factor=122, score=0.028320
+  top07: factor=157, score=0.027349
+  top08: factor=138, score=0.025927
+  top09: factor=17, score=0.025802
+  top10: factor=94, score=0.025510
+
+sample_3 | logit=-0.073148
+  top01: factor=142, score=0.096126
+  top02: factor=110, score=0.086542
+  top03: factor=8, score=0.086002
+  top04: factor=96, score=0.084366
+  top05: factor=160, score=0.075014
+  top06: factor=94, score=0.073514
+  top07: factor=187, score=0.070186
+  top08: factor=74, score=0.069766
+  top09: factor=184, score=0.068045
+  top10: factor=12, score=0.068012
+
+sample_4 | logit=-0.449321
+  top01: factor=119, score=0.030556
+  top02: factor=20, score=0.028940
+  top03: factor=142, score=0.027300
+  top04: factor=94, score=0.027262
+  top05: factor=96, score=0.025511
+  top06: factor=47, score=0.025364
+  top07: factor=8, score=0.025156
+  top08: factor=15, score=0.024777
+  top09: factor=21, score=0.024599
+  top10: factor=39, score=0.024515
+
+sample_5 | logit=0.759929
+  top01: factor=96, score=0.022091
+  top02: factor=110, score=0.019291
+  top03: factor=142, score=0.018775
+  top04: factor=58, score=0.018661
+  top05: factor=57, score=0.018614
+  top06: factor=8, score=0.018468
+  top07: factor=78, score=0.018461
+  top08: factor=134, score=0.018179
+  top09: factor=233, score=0.017683
+  top10: factor=138, score=0.017595
+
+sample_6 | logit=0.519762
+  top01: factor=76, score=0.053476
+  top02: factor=96, score=0.053382
+  top03: factor=8, score=0.050489
+  top04: factor=157, score=0.044507
+  top05: factor=21, score=0.044280
+  top06: factor=159, score=0.044045
+  top07: factor=68, score=0.043416
+  top08: factor=142, score=0.043137
+  top09: factor=40, score=0.042318
+  top10: factor=126, score=0.042069
+
+sample_7 | logit=0.660307
+  top01: factor=8, score=0.031333
+  top02: factor=159, score=0.026077
+  top03: factor=94, score=0.025724
+  top04: factor=122, score=0.024573
+  top05: factor=12, score=0.024328
+  top06: factor=17, score=0.024090
+  top07: factor=142, score=0.023864
+  top08: factor=96, score=0.023152
+  top09: factor=157, score=0.021947
+  top10: factor=125, score=0.021825
+

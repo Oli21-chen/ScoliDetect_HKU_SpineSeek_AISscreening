@@ -1,0 +1,57 @@
+TEST RESULTS
+======================================================================
+Checkpoint: /root/private_data/NMI_Project_Val/checkpoints/kfold5_kvt_vivit_pretrained_cobb11/fold_1/checkpoint_best.pth
+Epoch: 24
+Binary Threshold: 11.0
+Loss: 0.033135
+
+Total Accuracy: 82.23%
+Macro-avg Precision: 82.48%
+Macro-avg Recall: 85.44%
+Macro-avg F1 Score: 81.89%
+=== Positive Class Metrics ===
+Positive Precision: 97.48%
+Positive Recall: 74.36%
+Positive F1: 84.36%
+=== Negative Class Metrics ===
+Negative Precision: 67.48%
+Negative Recall: 96.51%
+Negative F1: 79.43%
+=== AUC Metrics ===
+Macro-averaged AUC (OVR): 97.25%
+Positive Class AUC: 97.25%
+Negative Class AUC: 97.25%
+======================================================================
+
+Confusion matrix (last evaluation):
+                 Predicted
+                 Neg    Pos
+  Actual Neg     166       6   (TN, FP)
+  Actual Pos      80     232   (FN, TP)
+======================================================================
+
+Threshold sweep (test set):
+thresh | acc    prec   rec    f1    auc
+----------------------------------------------
+0.05  |  64.5%  64.5% 100.0%  78.4% 0.972
+0.10  |  64.5%  64.5% 100.0%  78.4% 0.972
+0.15  |  67.4%  66.4% 100.0%  79.8% 0.972
+0.20  |  80.6%  76.8% 100.0%  86.9% 0.972
+0.25  |  91.7%  88.6% 100.0%  94.0% 0.972
+0.30  |  96.1%  94.5%  99.7%  97.0% 0.972
+0.35  |  95.7%  94.8%  98.7%  96.7% 0.972
+0.40  |  94.2%  94.9%  96.2%  95.5% 0.972
+0.45  |  90.7%  96.5%  88.8%  92.5% 0.972
+0.50  |  82.2%  97.5%  74.4%  84.4% 0.972
+0.55  |  68.4%  97.0%  52.6%  68.2% 0.972
+0.60  |  56.2%  98.1%  32.7%  49.0% 0.972
+0.65  |  42.4%  97.1%  10.9%  19.6% 0.972
+0.70  |  38.0% 100.0%   3.8%   7.4% 0.972
+0.75  |  35.7% 100.0%   0.3%   0.6% 0.972
+0.80  |  35.5%   0.0%   0.0%   0.0% 0.972
+0.85  |  35.5%   0.0%   0.0%   0.0% 0.972
+0.90  |  35.5%   0.0%   0.0%   0.0% 0.972
+0.95  |  35.5%   0.0%   0.0%   0.0% 0.972
+
+Best F1 threshold on test set:
+t = 0.30 (acc=96.07%, prec=94.53%, rec=99.68%, f1=97.04%, auc=0.972)
