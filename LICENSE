@@ -1,0 +1,105 @@
+ScoliDetect Research and Evaluation License
+============================================
+
+Copyright (c) 2026 The University of Hong Kong and The University of Hong Kong–Shenzhen Hospital.
+All rights reserved.
+
+Patent pending. ScoliDetect and related methods are the subject of one or more pending patent
+applications. No patent license is granted by this document except as explicitly stated below.
+
+
+1. Definitions
+--------------
+
+"Software" means the source code, model definitions, configuration files, documentation, and
+associated materials in this repository.
+
+"Permitted Use" means non-commercial academic research, peer review, reproducibility studies,
+and internal evaluation that does not involve clinical decision-making or patient care.
+
+
+2. Grant of limited license
+---------------------------
+
+Subject to the terms of this license, you are granted a non-exclusive, non-transferable,
+revocable, royalty-free license to:
+
+  (a) access and use the Software solely for Permitted Use;
+  (b) reproduce and modify the Software solely as necessary for Permitted Use; and
+  (c) share modifications only with collaborators engaged in the same Permitted Use,
+      provided that all copies retain this license and copyright notices.
+
+No other rights are granted, whether by implication, estoppel, or otherwise.
+
+
+3. Restrictions
+---------------
+
+You may not, without prior written permission from the copyright holders or their authorized
+technology transfer office:
+
+  (a) use the Software for commercial purposes, product development, or paid services;
+  (b) use the Software for clinical diagnosis, screening, treatment, or any direct patient care;
+  (c) deploy the Software in production clinical, school, or population screening workflows;
+  (d) sublicense, sell, rent, lease, or distribute the Software for commercial benefit;
+  (e) remove or alter copyright, patent, or attribution notices;
+  (f) use the Software in a manner that infringes applicable patent, copyright, or other
+      intellectual property rights.
+
+
+4. No patent license for commercial or clinical use
+---------------------------------------------------
+
+This license does not grant any rights under pending or future patents covering ScoliDetect,
+including methods relating to kinematic knowledge maps (KKM), multimodal gait-video fusion,
+or related screening workflows. Commercial implementation, clinical deployment, and other
+uses beyond Permitted Use require a separate written patent and/or commercial license.
+
+
+5. Attribution
+--------------
+
+If you publish work that uses or references this Software, you must cite the ScoliDetect
+manuscript (Nature Machine Intelligence, under review) and acknowledge the copyright holders.
+
+
+6. Disclaimer
+-------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF THE SOFTWARE.
+
+THE SOFTWARE IS AN ASSISTIVE RESEARCH TOOL ONLY. IT IS NOT A MEDICAL DEVICE AND IS NOT
+INTENDED TO REPLACE CLINICAL EXAMINATION OR RADIOGRAPHIC ASSESSMENT.
+
+
+7. Termination
+--------------
+
+This license terminates automatically if you breach any term. Upon termination, you must
+cease use of the Software and destroy all copies in your possession.
+
+
+8. Commercial and clinical licensing
+------------------------------------
+
+For commercialization, hospital deployment, patent licensing, or technology transfer inquiries,
+contact:
+
+  Dong Chen
+  Email: olichen@connect.hku.hk
+
+  Kenneth MC Cheung (corresponding author)
+  Orthopaedic Centre, The University of Hong Kong–Shenzhen Hospital
+  Department of Orthopaedics & Traumatology, The University of Hong Kong
+
+  GitHub issues: https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening/issues
+
+
+9. Governing law
+----------------
+
+This license is governed by the laws applicable to the copyright holders' place of
+incorporation, without regard to conflict-of-law principles.
