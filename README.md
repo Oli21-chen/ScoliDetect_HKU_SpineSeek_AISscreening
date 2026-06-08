@@ -11,10 +11,9 @@
 </div>
 
 [![GitHub](https://img.shields.io/badge/GitHub-ScoliDetect-blue?logo=github)](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening)
-[![Publication](https://img.shields.io/badge/Publication-Under%20Review-orange)](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening)
 [![License](https://img.shields.io/badge/License-Research%20Only-red)](LICENSE)
 
-> **Release status:** This repository is under active development while our manuscript is **under review**. Pretrained weights, full training scripts, sample data, capture protocol checklist, and supplementary materials **will be released soon** upon acceptance. Check back for updates.
+> **Release status:** This repository is under active development. Pretrained weights, full training scripts, sample data, capture protocol checklist, and supplementary materials **will be released soon**. Check back for updates.
 
 > **Clinical disclaimer:** ScoliDetect is an assistive **referral-triage** tool for use under standardized capture protocols. It is **not** a substitute for clinical examination or radiographic Cobb-angle measurement. Intended users include school nurses, primary-care staff, and trained screening personnel.
 
@@ -34,7 +33,7 @@ ScoliDetect screens for adolescent idiopathic scoliosis (AIS) from **monocular g
 
 Each aligned gait cycle is serialized as a **96 × 238** array. Video, KKM, and weak rule-based kinematic text are fused through **bidirectional cross-attention** with **Perceiver-style latent-bottleneck aggregation**, enabling both strong discrimination and **factor-level interpretability** at predefined indices rather than opaque pixel saliency.
 
-Evaluated in a multicenter cohort (**n = 1,858** after exclusions) across hospital and school sites in Hong Kong and Shenzhen, the full KKM–video–text (KVT) model achieves **external ROC-AUC = 0.972** with stable performance across Cobb severity and curve-type subgroups.
+Evaluated in a multicenter cohort (**n = 1,858** after exclusions) across **Hospital A**, **Hospital B**, and **School A**, the full KKM–video–text (KVT) model achieves **external ROC-AUC = 0.972** with stable performance across Cobb severity and curve-type subgroups.
 
 ---
 
@@ -90,7 +89,7 @@ ScoliDetect_HKU_HKUSZH/
 │   ├── sft_utils.py          # SFT training, evaluation, checkpoint helpers
 │   ├── training.py           # Trimodal contrastive pretraining loops
 │   ├── km_interpretability_core6.py  # Fig. 5-style factor attribution plots
-│   └── plot_style_nature.py  # Nature-style figure styling
+│   └── plot_style_nature.py  # Publication-style figure styling
 ├── checkpoints/              # Model configs and k-fold summaries
 ├── logs/                     # Evaluation outputs (metrics, predictions, interpretability)
 └── run_test.py               # External-test evaluation entry point
@@ -112,13 +111,13 @@ pip install -r requirements.txt
 
 See `[requirements.txt](requirements.txt)` for the full dependency list.
 
-> **Note:** `models/video_encoder.py` and `models/knowledge_encoder.py` import companion packages (`video_encoders`, `knowledge_encoder`) that must be available on your `PYTHONPATH`. These will be included in the full public release; until then, copy them from the HKU/HKUSZH training environment if needed.
+> **Note:** `models/video_encoder.py` and `models/knowledge_encoder.py` import companion packages (`video_encoders`, `knowledge_encoder`) that must be available on your `PYTHONPATH`. These will be included in the full public release; until then, copy them from the internal training environment if needed.
 
 ---
 
 ## Quick start — evaluation
 
-> **Coming soon:** End-to-end reproduction (pretrained checkpoints, preprocessed PKL samples, and step-by-step evaluation instructions) will be published with the accepted manuscript. The steps below describe the intended workflow for the upcoming release.
+> **Coming soon:** End-to-end reproduction (pretrained checkpoints, preprocessed PKL samples, and step-by-step evaluation instructions) will be published in a future release. The steps below describe the intended workflow.
 
 This release focuses on **reproducing external-test metrics and interpretability** from a trained checkpoint.
 
@@ -128,10 +127,10 @@ Place preprocessed PKL gait patches and metadata under `data/`:
 
 ```
 data/
-├── test_dk_pkl/          # External DKC cohort patches
-├── test_pk_pkl/          # External PK school-control patches
+├── test_hospital_a_pkl/    # External Hospital A cohort patches
+├── test_school_a_pkl/      # External School A control patches
 ├── general_gait_prompts_from_report.json
-├── test_indices_dk.json
+├── test_indices_hospital_a.json
 └── subgroup_indices.json
 ```
 
@@ -143,7 +142,7 @@ Edit `run_test.py` and set:
 
 ```python
 checkpoint_path = "checkpoints/your_model/checkpoint_best.pth"
-test_pkl_data_dir_override = ["./data/test_dk_pkl", "./data/test_pk_pkl"]
+test_pkl_data_dir_override = ["./data/test_hospital_a_pkl", "./data/test_school_a_pkl"]
 ```
 
 The checkpoint must embed a `config` dict (see `checkpoints/config.json` for reference fields).
@@ -184,21 +183,19 @@ Standardized monocular capture for deployment-aligned evaluation:
 - **Clothing:** torso unobstructed; no backpacks or heavy outerwear
 - **Processing:** hybrid pose estimation → adaptive normalization → KKM construction → onset + peak-anchored gait registration
 
-Full protocol details are in the manuscript Methods section.
+Full protocol details will be included in the upcoming public release.
 
 ---
 
 ## Cohort summary
 
+| Site       | Role                         | Participants |
+| ---------- | ---------------------------- | ------------ |
+| Hospital A | External test                | 299          |
+| Hospital B | Train / validation           | 820          |
+| School A   | Pretrain + external controls | 739          |
 
-| Site                                      | Role                         | Participants |
-| ----------------------------------------- | ---------------------------- | ------------ |
-| Duchess of Kent Children's Hospital (DKC) | External test                | 299          |
-| HKU–Shenzhen Hospital (HKU-SZ)            | Train / validation           | 820          |
-| Pui Kiu school screening                  | Pretrain + external controls | 739          |
-
-
-Total enrolled: **1,974**; after radiograph exclusions: **1,858**. External evaluation combines DKC (n = 299) and radiographically verified PK controls (n = 155). Patient-level splits ensure no subject overlap across partitions.
+Total enrolled: **1,974**; after radiograph exclusions: **1,858**. External evaluation combines Hospital A (n = 299) and radiographically verified School A controls (n = 155). Patient-level splits ensure no subject overlap across partitions.
 
 ---
 
@@ -213,24 +210,6 @@ Top-attributed factors are consistent across curve subgroups (e.g., horizontal e
 
 ---
 
-## Citation
-
-If you use this code or approach, please cite:
-
-```bibtex
-@article{chen2026scolidetect,
-  title   = {ScoliDetect: Explainable Multimodal Learning from Gait Video Enables Scalable Scoliosis Screening},
-  author  = {Chen, Dong and He, Zonglin and Cheung, Kenneth MC and others},
-  journal = {Nature Machine Intelligence},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
-The BibTeX entry will be updated with volume, pages, and DOI upon acceptance.
-
----
-
 ## License & intellectual property
 
 Copyright © 2026 The University of Hong Kong and The University of Hong Kong–Shenzhen Hospital. **All rights reserved.**
@@ -241,7 +220,6 @@ Copyright © 2026 The University of Hong Kong and The University of Hong Kong–
 | Use case                                           | Allowed?                           |
 | -------------------------------------------------- | ---------------------------------- |
 | Non-commercial academic research & reproducibility | Yes, under [LICENSE](LICENSE)      |
-| Citation and evaluation of published methods       | Yes, with attribution              |
 | Clinical screening or patient care                 | **No**                             |
 | Commercial products or paid services               | **No** — separate license required |
 | Patent implementation without permission           | **No**                             |
@@ -253,11 +231,7 @@ For **commercialization**, **hospital deployment**, or **patent licensing**, con
 
 ## Data availability
 
-## Data availability
-
-**Publication status:** *Under review* at *Nature Machine Intelligence*.
-
-The following will be released **soon** (target: upon manuscript acceptance):
+The following will be released **soon**:
 
 - Full training and evaluation code (including `video_encoders` and `knowledge_encoder` modules)
 - Pretrained model weights and example checkpoints
@@ -266,7 +240,7 @@ The following will be released **soon** (target: upon manuscript acceptance):
 
 **Currently available:** core model definitions, evaluation utilities (`run_test.py`), and reference configs in this repository.
 
-**Raw video** remains restricted by IRB approvals (HKU/Hospital Authority Hong Kong West Cluster UW 21-511; HKU-Shenzhen HKUSZH2023020). Access may be granted under data-transfer agreements—contact [olichen@connect.hku.hk](mailto:olichen@connect.hku.hk).
+**Raw video** remains restricted by institutional IRB approvals. Access may be granted under data-transfer agreements—contact [olichen@connect.hku.hk](mailto:olichen@connect.hku.hk).
 
 ---
 
@@ -280,21 +254,6 @@ Department of Orthopaedics & Traumatology, Li Ka Shing Faculty of Medicine, The 
  Corresponding author
 
 ---
-
-## Recommended README assets (optional)
-
-The algorithm overview figure is included at [`figs/image2.png`](figs/image2.png). Additional figures can be added under `docs/assets/` for a richer landing page:
-
-
-| Suggested file                     | Manuscript source                                | Purpose                        |
-| ---------------------------------- | ------------------------------------------------ | ------------------------------ |
-| `docs/assets/cover.png`            | **Fig. 1c** — gait video → KKM → text pipeline   | Hero banner (clinical context) |
-| `docs/assets/roc_external.png`     | **Fig. 4a** — external ROC curves                | Results highlight              |
-| `docs/assets/interpretability.png` | **Fig. 5** — factor attribution across subgroups | Explainability showcase        |
-
-
----
-
 ## Contact
 
 **Email:** [olichen@connect.hku.hk](mailto:olichen@connect.hku.hk)
