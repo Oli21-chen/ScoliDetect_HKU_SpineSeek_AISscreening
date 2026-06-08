@@ -251,8 +251,6 @@ Dong Chen, Zonglin He, Kenneth MC Cheung
 Orthopaedic Centre, The University of Hong Kong–Shenzhen Hospital, Shenzhen, China  
 Department of Orthopaedics & Traumatology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China
 
- Corresponding author
-
 ---
 ## Contact
 
