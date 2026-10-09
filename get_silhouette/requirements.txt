@@ -1,0 +1,16 @@
+# Human Gait Silhouette Extraction Dependencies
+
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Ultralytics YOLO (supports YOLO11, YOLOv9, YOLOv8)
+# Version 8.3+ required for YOLO11 support
+ultralytics>=8.3.0
+
+# MediaPipe (alternative method)
+mediapipe>=0.10.0
+
+# Progress bar for data processing
+tqdm>=4.65.0
+

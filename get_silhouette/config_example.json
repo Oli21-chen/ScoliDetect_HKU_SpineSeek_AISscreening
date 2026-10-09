@@ -1,0 +1,19 @@
+{
+  "data_root": "C:/Users/Olive/scoliosis_predictive_factors_pose_estimation/scoligait_kinetfactors",
+  "output_root": "scoliosis1k-plus",
+  "class_definitions": [
+    ["normal", "XAI_normal_video50", "XAI_normal_table50"],
+    ["single_thoracic", "XAI_single_thoracic_video50", "XAI_single_thoracic_table50"],
+    ["double", "XAI_double_video50", "XAI_double_table50"],
+    ["single_lumbar", "XAI_single_lumbar_video50", "XAI_single_lumbar_table50"]
+  ],
+  "silhouette_size": [128, 64],
+  "masked_rgb_size": [128, 64],
+  "padding_ratio": 0.05,
+  "recorded_size": [1080, 1920],
+  "video_patterns": {
+    "video_extensions": [".mp4", ".avi", ".mov", ".mkv"],
+    "csv_extensions": [".csv"]
+  },
+  "_comment": "This is an example configuration file. Customize paths and settings for your data structure."
+}

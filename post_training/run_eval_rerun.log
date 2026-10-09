@@ -1,0 +1,84 @@
+﻿Processing 93 patches from C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl
+  Checkpoint: C:\Users\Olive\Desktop\ScoliDetect_deployversion\checkpoints\kfold5_kvt_vivit_pretrained_cobb11\fold_1\checkpoint_best.pth
+  Threshold:  0.5
+  Device:     cuda
+  Age filter: off (max_age=100.0 >= 100.0)
+
+Processed 93 patches
+  Results: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline\inference_results.json
+  Metrics: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline\metrics.json
+  Labeled: 93 / 93
+
+Confusion matrix (rows=actual, cols=predicted):
+              Pred 0  Pred 1
+Actual 0          15      26
+Actual 1           9      43
+  TN=15  FP=26  FN=9  TP=43
+  Accuracy:  0.6237
+  Precision: 0.6232
+  Recall:    0.8269
+  F1:        0.7107
+  AUROC:     0.7031
+Processing 93 patches from C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl
+  Checkpoint: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\checkpoints\checkpoint_posttrain_head.pth
+  Threshold:  0.5
+  Device:     cuda
+  Age filter: off (max_age=100.0 >= 100.0)
+
+Processed 93 patches
+  Results: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain\inference_results.json
+  Metrics: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain\metrics.json
+  Labeled: 93 / 93
+
+Confusion matrix (rows=actual, cols=predicted):
+              Pred 0  Pred 1
+Actual 0           9      32
+Actual 1           6      46
+  TN=9  FP=32  FN=6  TP=46
+  Accuracy:  0.5914
+  Precision: 0.5897
+  Recall:    0.8846
+  F1:        0.7077
+  AUROC:     0.6477
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline\results_analysis.png
+  Inference samples: 93
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline\negative_sample_values.png
+  Negative samples: 41
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain\results_analysis.png
+  Inference samples: 93
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain\negative_sample_values.png
+  Negative samples: 41
+C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe : No artists with labels found to put in legend.  Note that ar
+tists whose label start with an underscore are ignored when legend() is called with no argument.
+所在位置 C:\Users\Olive\AppData\Local\Temp\ps-script-520117f1-ef3b-460f-9071-cc66dbff1456.ps1:131 字符: 95
++ ... ode_video"; C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (No artists with...th no argument.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\comparison\baseline_vs_posttrain_overview.png
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\comparison\baseline_vs_posttrain_delta.png
+Saved: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\comparison\comparison_metrics.json
+
+Baseline vs post-trained (holdout, paired n=93)
+  Baseline: n=93
+    mean prob=0.5624
+    AUROC=N/A, acc=0.6236559139114349, F1=0.7107437966341097
+  Post-trained: n=93
+    mean prob=0.8192
+    AUROC=N/A, acc=0.5913978493987745, F1=0.7076923027834321
+  Mann-Whitney (probability): p=7.447e-15
+  Mean probability delta (post - base): +0.2568
+Support: {'pos': 884, 'neg': 885}
+Holdout subjects: 95
+
+>> C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe C:\Users\Olive\Desktop\Nature_Style\code_video\main\03_Infer.py --pkl-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl --output-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline --scoli-root C:\Users\Olive\Desktop\ScoliDetect_deployversion --threshold 0.5 --max-age 100.0 --label-excel C:\Users\Olive\Desktop\video_retrival\video_retrival\Label_SZpart2.xlsx
+
+>> C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe C:\Users\Olive\Desktop\Nature_Style\code_video\main\03_Infer.py --pkl-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl --output-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain --scoli-root C:\Users\Olive\Desktop\ScoliDetect_deployversion --threshold 0.5 --max-age 100.0 --label-excel C:\Users\Olive\Desktop\video_retrival\video_retrival\Label_SZpart2.xlsx --checkpoint C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\checkpoints\checkpoint_posttrain_head.pth
+
+>> C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe C:\Users\Olive\Desktop\Nature_Style\code_video\main\04_results_analyze.py --results-json C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline\inference_results.json --pkl-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl --table-dir C:\Users\Olive\Desktop\experiments\table --scoli-root C:\Users\Olive\Desktop\ScoliDetect_deployversion --skip-symmetry
+
+>> C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe C:\Users\Olive\Desktop\Nature_Style\code_video\main\04_results_analyze.py --results-json C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain\inference_results.json --pkl-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl --table-dir C:\Users\Olive\Desktop\experiments\table --scoli-root C:\Users\Olive\Desktop\ScoliDetect_deployversion --skip-symmetry
+
+>> C:\Users\Olive\anaconda3\envs\PytorchCuda11.8\python.exe C:\Users\Olive\Desktop\Nature_Style\code_video\main\04_results_analyze.py --compare-baseline-vs-posttrain --baseline-inference-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_baseline --posttrain-inference-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl\inference_posttrain --pkl-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\holdout_pkl --table-dir C:\Users\Olive\Desktop\experiments\table --scoli-root C:\Users\Olive\Desktop\ScoliDetect_deployversion --compare-output-dir C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\comparison --skip-symmetry
+Pipeline summary: C:\Users\Olive\Desktop\Nature_Style\code_video\pytorch\post_training\comparison\pipeline_summary.json

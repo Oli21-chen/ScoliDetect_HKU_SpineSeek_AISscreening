@@ -1,0 +1,99 @@
+{
+  "categorized_prompts": {
+    "hip_mechanics": [
+      "reduced hip width during gait",
+      "decreased minimum hip width"
+    ],
+    "knee_kinematics": [],
+    "bilateral_asymmetry": [
+      "asymmetric lower limb positioning",
+      "bilateral differences in joint mechanics",
+      "left-right limb asymmetry during gait",
+      "asymmetric postural alignment"
+    ],
+    "normal_gait": [
+      "symmetric trunk alignment during gait",
+      "stable trunk height pattern",
+      "balanced postural control",
+      "normal trunk lateral positioning",
+      "consistent trunk mechanics during gait"
+    ],
+    "scoliotic_gait": [
+      "abnormal trunk lateral shift pattern",
+      "increased lateral trunk displacement",
+      "asymmetric gait pattern with postural compensation",
+      "abnormal trunk mechanics during gait",
+      "compensatory gait adjustments for spinal curvature",
+      "altered postural control during gait",
+      "asymmetric joint kinematics with postural deviation"
+    ],
+    "thoracic_scoliotic_gait": [
+      "increased lateral trunk shift in thoracic scoliosis",
+      "compensatory postural adjustments for thoracic curve",
+      "thoracic curve affecting trunk mechanics",
+      "abnormal trunk lateral displacement in thoracic scoliosis"
+    ],
+    "gait_variability": [
+      "high variability in trunk height",
+      "inconsistent trunk height control",
+      "inconsistent gait pattern",
+      "high variability in postural features",
+      "irregular motion patterns during gait",
+      "fluctuating gait mechanics"
+    ],
+    "postural_features": [
+      "lateral trunk shift during gait",
+      "trunk lateral displacement pattern",
+      "asymmetric trunk alignment during gait",
+      "lateral trunk deviation from normal",
+      "variable trunk height during gait",
+      "inconsistent trunk height pattern",
+      "trunk height variability during gait",
+      "altered trunk height during gait",
+      "trunk height deviation from normal"
+    ]
+  },
+  "concise_prompts": [
+    "lateral trunk shift during gait",
+    "trunk lateral displacement pattern",
+    "asymmetric trunk alignment during gait",
+    "lateral trunk deviation from normal",
+    "reduced hip width during gait",
+    "decreased minimum hip width",
+    "asymmetric lower limb positioning",
+    "bilateral differences in joint mechanics",
+    "left-right limb asymmetry during gait",
+    "abnormal trunk lateral shift pattern",
+    "increased lateral trunk displacement",
+    "asymmetric gait pattern with postural compensation",
+    "symmetric trunk alignment during gait",
+    "stable trunk height pattern",
+    "high variability in trunk height",
+    "inconsistent trunk height control",
+    "increased lateral trunk shift in thoracic scoliosis",
+    "compensatory postural adjustments for thoracic curve"
+  ],
+  "metadata": {
+    "total_categorized": 37,
+    "total_concise": 18,
+    "categories": [
+      "hip_mechanics",
+      "knee_kinematics",
+      "bilateral_asymmetry",
+      "normal_gait",
+      "scoliotic_gait",
+      "thoracic_scoliotic_gait",
+      "gait_variability",
+      "postural_features"
+    ],
+    "description": "General gait analysis prompts for distinguishing scoliotic gait patterns",
+    "based_on": "Report_4class.md findings",
+    "key_features": [
+      "trunk_lateral_shift_mean (η²=0.142)",
+      "trunk_height_std (η²=0.119)",
+      "trunk_height_range (η²=0.111)"
+    ],
+    "generation_method": "extracted_from_report",
+    "report_path": "C:\\Users\\Olive\\scoliosis_predictive_factors_pose_estimation\\Report_4class.md"
+  }
+}

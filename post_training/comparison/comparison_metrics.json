@@ -1,0 +1,1249 @@
+{
+  "comparison": {
+    "baseline": {
+      "cohort": "baseline",
+      "n_inference": 93,
+      "n_symmetry": 0,
+      "threshold": 0.5,
+      "probability": {
+        "mean": 0.5624308371415703,
+        "median": 0.5712584853172302,
+        "std": 0.0915993290977784,
+        "min": 0.31838634610176086,
+        "max": 0.7438278794288635,
+        "predicted_positive": 69,
+        "predicted_positive_rate": 0.7419354838709677
+      },
+      "symmetry_score": {
+        "mean": null,
+        "median": null,
+        "std": null
+      },
+      "similarity_means": {
+        "Shoulder": null,
+        "Arm": null,
+        "Stride": null,
+        "Trunk": null
+      }
+    },
+    "posttrain": {
+      "cohort": "posttrain",
+      "n_inference": 93,
+      "n_symmetry": 0,
+      "threshold": 0.5,
+      "probability": {
+        "mean": 0.4829916665630956,
+        "median": 0.47183048725128174,
+        "std": 0.1007616443037061,
+        "min": 0.23999959230422974,
+        "max": 0.7062807679176331,
+        "predicted_positive": 38,
+        "predicted_positive_rate": 0.40860215053763443
+      },
+      "symmetry_score": {
+        "mean": null,
+        "median": null,
+        "std": null
+      },
+      "similarity_means": {
+        "Shoulder": null,
+        "Arm": null,
+        "Stride": null,
+        "Trunk": null
+      }
+    },
+    "paired_n": 93,
+    "baseline_metrics_file": {
+      "threshold": 0.5,
+      "n_total": 93,
+      "n_labeled": 93,
+      "n_unlabeled": 0,
+      "label_distribution": {
+        "0.0": 41,
+        "1.0": 52
+      },
+      "tp": 43,
+      "tn": 15,
+      "fp": 26,
+      "fn": 9,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            15,
+            26
+          ],
+          [
+            9,
+            43
+          ]
+        ]
+      },
+      "accuracy": 0.6236559139114349,
+      "precision": 0.6231884057067844,
+      "recall": 0.8269230767640532,
+      "f1": 0.7107437966341097,
+      "auc_roc": 0.7030956848030019
+    },
+    "posttrain_metrics_file": {
+      "threshold": 0.5,
+      "n_total": 93,
+      "n_labeled": 93,
+      "n_unlabeled": 0,
+      "label_distribution": {
+        "0.0": 41,
+        "1.0": 52
+      },
+      "tp": 29,
+      "tn": 32,
+      "fp": 9,
+      "fn": 23,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            32,
+            9
+          ],
+          [
+            23,
+            29
+          ]
+        ]
+      },
+      "accuracy": 0.6559139784240953,
+      "precision": 0.763157894536011,
+      "recall": 0.5576923075850592,
+      "f1": 0.6444444394222223,
+      "auc_roc": 0.6946529080675422
+    },
+    "statistical_tests": {
+      "baseline_vs_posttrain_probability": 3.2686027914053236e-07,
+      "probability_delta_mean": -0.07943917057847463
+    }
+  },
+  "paired_samples": [
+    {
+      "source_file": "sz_886_step1",
+      "label": 1.0,
+      "label_value": [
+        21.7,
+        23.7
+      ],
+      "baseline_prob": 0.5900877118110657,
+      "posttrain_prob": 0.501716136932373,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_887_step1",
+      "label": 1.0,
+      "label_value": [
+        11.5,
+        0.0
+      ],
+      "baseline_prob": 0.5234494209289551,
+      "posttrain_prob": 0.45597973465919495,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_888_step1",
+      "label": 1.0,
+      "label_value": [
+        12.6,
+        0.0
+      ],
+      "baseline_prob": 0.6116288304328918,
+      "posttrain_prob": 0.5243245959281921,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_889_step1",
+      "label": 1.0,
+      "label_value": [
+        12.1,
+        0.0
+      ],
+      "baseline_prob": 0.5534641146659851,
+      "posttrain_prob": 0.4751932919025421,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_890_step1",
+      "label": 0.0,
+      "label_value": [
+        3.0,
+        0.0
+      ],
+      "baseline_prob": 0.730826199054718,
+      "posttrain_prob": 0.7047611474990845,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_891_step1",
+      "label": 0.0,
+      "label_value": [
+        3.0,
+        0.0
+      ],
+      "baseline_prob": 0.5735413432121277,
+      "posttrain_prob": 0.5085736513137817,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_892_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        12.1
+      ],
+      "baseline_prob": 0.6514990329742432,
+      "posttrain_prob": 0.5946050882339478,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_893_step1",
+      "label": 1.0,
+      "label_value": [
+        28.3,
+        20.4
+      ],
+      "baseline_prob": 0.678045928478241,
+      "posttrain_prob": 0.6123838424682617,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_894_step1",
+      "label": 1.0,
+      "label_value": [
+        16.2,
+        0.0
+      ],
+      "baseline_prob": 0.4102885127067566,
+      "posttrain_prob": 0.34546053409576416,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_895_step1",
+      "label": 0.0,
+      "label_value": [
+        3.0,
+        0.0
+      ],
+      "baseline_prob": 0.6728643774986267,
+      "posttrain_prob": 0.5875193476676941,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_896_step1",
+      "label": 0.0,
+      "label_value": [
+        3.0,
+        0.0
+      ],
+      "baseline_prob": 0.5712584853172302,
+      "posttrain_prob": 0.45961397886276245,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_897_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        2.0
+      ],
+      "baseline_prob": 0.4654974639415741,
+      "posttrain_prob": 0.3976447880268097,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_898_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        6.0
+      ],
+      "baseline_prob": 0.4714229702949524,
+      "posttrain_prob": 0.3977167308330536,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_899_step1",
+      "label": 0.0,
+      "label_value": [
+        7.0,
+        0.0
+      ],
+      "baseline_prob": 0.4545578062534332,
+      "posttrain_prob": 0.38646024465560913,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_900_step1",
+      "label": 0.0,
+      "label_value": [
+        4.4,
+        0.0
+      ],
+      "baseline_prob": 0.535105288028717,
+      "posttrain_prob": 0.4700254499912262,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_901_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        2.0
+      ],
+      "baseline_prob": 0.6705940365791321,
+      "posttrain_prob": 0.5841198563575745,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_902_step1",
+      "label": 0.0,
+      "label_value": [
+        6.3,
+        0.0
+      ],
+      "baseline_prob": 0.40593093633651733,
+      "posttrain_prob": 0.3597589135169983,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_903_step1",
+      "label": 1.0,
+      "label_value": [
+        12.6,
+        0.0
+      ],
+      "baseline_prob": 0.7438278794288635,
+      "posttrain_prob": 0.7062807679176331,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_904_step1",
+      "label": 1.0,
+      "label_value": [
+        24.3,
+        17.1
+      ],
+      "baseline_prob": 0.377923846244812,
+      "posttrain_prob": 0.2805124521255493,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_905_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        10.4
+      ],
+      "baseline_prob": 0.5615736842155457,
+      "posttrain_prob": 0.4840104579925537,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_906_step1",
+      "label": 1.0,
+      "label_value": [
+        28.3,
+        0.0
+      ],
+      "baseline_prob": 0.6821503043174744,
+      "posttrain_prob": 0.6476143598556519,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_907_step1",
+      "label": 0.0,
+      "label_value": [
+        3.0,
+        0.0
+      ],
+      "baseline_prob": 0.6375846266746521,
+      "posttrain_prob": 0.5688260793685913,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_908_step1",
+      "label": 1.0,
+      "label_value": [
+        20.1,
+        0.0
+      ],
+      "baseline_prob": 0.6785410046577454,
+      "posttrain_prob": 0.6253278255462646,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_909_step1",
+      "label": 1.0,
+      "label_value": [
+        12.1,
+        0.0
+      ],
+      "baseline_prob": 0.6020888686180115,
+      "posttrain_prob": 0.5466983318328857,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_910_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        6.0
+      ],
+      "baseline_prob": 0.5799977779388428,
+      "posttrain_prob": 0.5148470401763916,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_911_step1",
+      "label": 1.0,
+      "label_value": [
+        11.8,
+        27.0
+      ],
+      "baseline_prob": 0.5242311954498291,
+      "posttrain_prob": 0.4485122859477997,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_912_step1",
+      "label": 0.0,
+      "label_value": [
+        2.7,
+        0.0
+      ],
+      "baseline_prob": 0.4629087448120117,
+      "posttrain_prob": 0.37324386835098267,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_913_step1",
+      "label": 1.0,
+      "label_value": [
+        43.6,
+        42.6
+      ],
+      "baseline_prob": 0.6199943423271179,
+      "posttrain_prob": 0.5451175570487976,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_914_step1",
+      "label": 1.0,
+      "label_value": [
+        11.8,
+        0.0
+      ],
+      "baseline_prob": 0.6330681443214417,
+      "posttrain_prob": 0.5373363494873047,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_915_step1",
+      "label": 1.0,
+      "label_value": [
+        21.7,
+        0.0
+      ],
+      "baseline_prob": 0.5768053531646729,
+      "posttrain_prob": 0.49556541442871094,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_916_step1",
+      "label": 0.0,
+      "label_value": [
+        1.0,
+        0.0
+      ],
+      "baseline_prob": 0.3930180072784424,
+      "posttrain_prob": 0.3334481716156006,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_917_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        17.4
+      ],
+      "baseline_prob": 0.4357369840145111,
+      "posttrain_prob": 0.3442061245441437,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_918_step1",
+      "label": 1.0,
+      "label_value": [
+        17.4,
+        0.0
+      ],
+      "baseline_prob": 0.693132221698761,
+      "posttrain_prob": 0.6265291571617126,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_919_step1",
+      "label": 1.0,
+      "label_value": [
+        20.0,
+        18.7
+      ],
+      "baseline_prob": 0.711519718170166,
+      "posttrain_prob": 0.6341993808746338,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_920_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        18.2
+      ],
+      "baseline_prob": 0.6938741207122803,
+      "posttrain_prob": 0.6396920680999756,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_921_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        14.4
+      ],
+      "baseline_prob": 0.6365834474563599,
+      "posttrain_prob": 0.549504816532135,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_922_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        12.6
+      ],
+      "baseline_prob": 0.5910529494285583,
+      "posttrain_prob": 0.5243521928787231,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_924_step1",
+      "label": 1.0,
+      "label_value": [
+        27.2,
+        43.4
+      ],
+      "baseline_prob": 0.7160053253173828,
+      "posttrain_prob": 0.6728151440620422,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_925_step1",
+      "label": 0.0,
+      "label_value": [
+        3.2,
+        0.0
+      ],
+      "baseline_prob": 0.49450355768203735,
+      "posttrain_prob": 0.41095036268234253,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_926_step1",
+      "label": 0.0,
+      "label_value": [
+        10.9,
+        0.0
+      ],
+      "baseline_prob": 0.422634482383728,
+      "posttrain_prob": 0.3144780695438385,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_927_step1",
+      "label": 1.0,
+      "label_value": [
+        18.3,
+        0.0
+      ],
+      "baseline_prob": 0.607713520526886,
+      "posttrain_prob": 0.5279077291488647,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_928_step1",
+      "label": 1.0,
+      "label_value": [
+        13.2,
+        11.3
+      ],
+      "baseline_prob": 0.7193671464920044,
+      "posttrain_prob": 0.6409924626350403,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_929_step1",
+      "label": 0.0,
+      "label_value": [
+        9.0,
+        0.0
+      ],
+      "baseline_prob": 0.5375471115112305,
+      "posttrain_prob": 0.45207706093788147,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_930_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        14.1
+      ],
+      "baseline_prob": 0.5802827477455139,
+      "posttrain_prob": 0.5172630548477173,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_931_step1",
+      "label": 0.0,
+      "label_value": [
+        3.0,
+        0.0
+      ],
+      "baseline_prob": 0.6046532988548279,
+      "posttrain_prob": 0.4904564321041107,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_933_step1",
+      "label": 1.0,
+      "label_value": [
+        20.6,
+        0.0
+      ],
+      "baseline_prob": 0.524228572845459,
+      "posttrain_prob": 0.37914708256721497,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_934_step1",
+      "label": 1.0,
+      "label_value": [
+        45.2,
+        69.2
+      ],
+      "baseline_prob": 0.5578987002372742,
+      "posttrain_prob": 0.4479750692844391,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_935_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        11.3
+      ],
+      "baseline_prob": 0.6011253595352173,
+      "posttrain_prob": 0.5069378018379211,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_936_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        7.0
+      ],
+      "baseline_prob": 0.5088693499565125,
+      "posttrain_prob": 0.42042288184165955,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_937_step1",
+      "label": 0.0,
+      "label_value": [
+        2.0,
+        0.0
+      ],
+      "baseline_prob": 0.6144830584526062,
+      "posttrain_prob": 0.5755981206893921,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_938_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        8.9
+      ],
+      "baseline_prob": 0.4728238582611084,
+      "posttrain_prob": 0.36986029148101807,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_939_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        0.0
+      ],
+      "baseline_prob": 0.36618107557296753,
+      "posttrain_prob": 0.2907438278198242,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_940_step1",
+      "label": 1.0,
+      "label_value": [
+        12.2,
+        0.0
+      ],
+      "baseline_prob": 0.49270099401474,
+      "posttrain_prob": 0.3614160120487213,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_941_step1",
+      "label": 1.0,
+      "label_value": [
+        14.9,
+        0.0
+      ],
+      "baseline_prob": 0.49780625104904175,
+      "posttrain_prob": 0.38431358337402344,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_942_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        19.1
+      ],
+      "baseline_prob": 0.43159347772598267,
+      "posttrain_prob": 0.3288351893424988,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_943_step1",
+      "label": 0.0,
+      "label_value": [
+        3.2,
+        0.0
+      ],
+      "baseline_prob": 0.6315240263938904,
+      "posttrain_prob": 0.5248915553092957,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_944_step1",
+      "label": 1.0,
+      "label_value": [
+        27.9,
+        29.0
+      ],
+      "baseline_prob": 0.5349985361099243,
+      "posttrain_prob": 0.47183048725128174,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_945_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        14.3
+      ],
+      "baseline_prob": 0.46064525842666626,
+      "posttrain_prob": 0.37234267592430115,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_946_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        5.6
+      ],
+      "baseline_prob": 0.518220067024231,
+      "posttrain_prob": 0.41916924715042114,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_947_step1",
+      "label": 1.0,
+      "label_value": [
+        30.6,
+        24.4
+      ],
+      "baseline_prob": 0.5656178593635559,
+      "posttrain_prob": 0.4715549647808075,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_948_step1",
+      "label": 1.0,
+      "label_value": [
+        12.3,
+        0.0
+      ],
+      "baseline_prob": 0.7314375042915344,
+      "posttrain_prob": 0.6862424612045288,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_949_step1",
+      "label": 0.0,
+      "label_value": [
+        7.8,
+        0.0
+      ],
+      "baseline_prob": 0.47395429015159607,
+      "posttrain_prob": 0.38760048151016235,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_950_step1",
+      "label": 0.0,
+      "label_value": [
+        5.0,
+        0.0
+      ],
+      "baseline_prob": 0.5580476522445679,
+      "posttrain_prob": 0.4692126512527466,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_951_step1",
+      "label": 0.0,
+      "label_value": [
+        3.4,
+        0.0
+      ],
+      "baseline_prob": 0.5793511867523193,
+      "posttrain_prob": 0.4995545446872711,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_952_step1",
+      "label": 0.0,
+      "label_value": [
+        6.3,
+        0.0
+      ],
+      "baseline_prob": 0.5319845676422119,
+      "posttrain_prob": 0.4427032172679901,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_953_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        19.8
+      ],
+      "baseline_prob": 0.680294930934906,
+      "posttrain_prob": 0.6083436608314514,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_954_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        17.1
+      ],
+      "baseline_prob": 0.6420886516571045,
+      "posttrain_prob": 0.583345353603363,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_955_step1",
+      "label": 1.0,
+      "label_value": [
+        17.6,
+        20.6
+      ],
+      "baseline_prob": 0.6325427889823914,
+      "posttrain_prob": 0.5692298412322998,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_956_step1",
+      "label": 1.0,
+      "label_value": [
+        26.8,
+        25.4
+      ],
+      "baseline_prob": 0.48437467217445374,
+      "posttrain_prob": 0.39136141538619995,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_957_step1",
+      "label": 1.0,
+      "label_value": [
+        31.5,
+        34.1
+      ],
+      "baseline_prob": 0.5745310187339783,
+      "posttrain_prob": 0.4955916404724121,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_958_step1",
+      "label": 0.0,
+      "label_value": [
+        9.2,
+        0.0
+      ],
+      "baseline_prob": 0.31838634610176086,
+      "posttrain_prob": 0.23999959230422974,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_959_step1",
+      "label": 0.0,
+      "label_value": [
+        7.6,
+        0.0
+      ],
+      "baseline_prob": 0.634046196937561,
+      "posttrain_prob": 0.5368781685829163,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_960_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        15.7
+      ],
+      "baseline_prob": 0.49732834100723267,
+      "posttrain_prob": 0.42220616340637207,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_961_step1",
+      "label": 0.0,
+      "label_value": [
+        9.2,
+        0.0
+      ],
+      "baseline_prob": 0.5074217319488525,
+      "posttrain_prob": 0.452392578125,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_962_step1",
+      "label": 0.0,
+      "label_value": [
+        2.8,
+        0.0
+      ],
+      "baseline_prob": 0.5190982222557068,
+      "posttrain_prob": 0.41857513785362244,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_963_step1",
+      "label": 0.0,
+      "label_value": [
+        7.7,
+        0.0
+      ],
+      "baseline_prob": 0.5827014446258545,
+      "posttrain_prob": 0.4698609411716461,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_964_step1",
+      "label": 0.0,
+      "label_value": [
+        2.9,
+        0.0
+      ],
+      "baseline_prob": 0.5085101127624512,
+      "posttrain_prob": 0.4502248466014862,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_965_step1",
+      "label": 0.0,
+      "label_value": [
+        7.3,
+        0.0
+      ],
+      "baseline_prob": 0.5671924948692322,
+      "posttrain_prob": 0.48545387387275696,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_966_step1",
+      "label": 1.0,
+      "label_value": [
+        19.5,
+        0.0
+      ],
+      "baseline_prob": 0.594825029373169,
+      "posttrain_prob": 0.4644656479358673,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_967_step1",
+      "label": 1.0,
+      "label_value": [
+        16.3,
+        31.8
+      ],
+      "baseline_prob": 0.6178703308105469,
+      "posttrain_prob": 0.5257360935211182,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_968_step1",
+      "label": 1.0,
+      "label_value": [
+        22.3,
+        25.4
+      ],
+      "baseline_prob": 0.6715655326843262,
+      "posttrain_prob": 0.5953683853149414,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_969_step1",
+      "label": 0.0,
+      "label_value": [
+        7.7,
+        0.0
+      ],
+      "baseline_prob": 0.5946834087371826,
+      "posttrain_prob": 0.4676606059074402,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_970_step1",
+      "label": 1.0,
+      "label_value": [
+        15.0,
+        0.0
+      ],
+      "baseline_prob": 0.535895586013794,
+      "posttrain_prob": 0.42842966318130493,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_971_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        14.8
+      ],
+      "baseline_prob": 0.5123056173324585,
+      "posttrain_prob": 0.45091140270233154,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_972_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        6.9
+      ],
+      "baseline_prob": 0.47607851028442383,
+      "posttrain_prob": 0.39711105823516846,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_973_step1",
+      "label": 1.0,
+      "label_value": [
+        13.7,
+        0.0
+      ],
+      "baseline_prob": 0.5241633653640747,
+      "posttrain_prob": 0.42142441868782043,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_974_step1",
+      "label": 1.0,
+      "label_value": [
+        35.0,
+        15.1
+      ],
+      "baseline_prob": 0.6205751895904541,
+      "posttrain_prob": 0.5549355745315552,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_975_step1",
+      "label": 0.0,
+      "label_value": [
+        5.8,
+        0.0
+      ],
+      "baseline_prob": 0.4676137864589691,
+      "posttrain_prob": 0.39570438861846924,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_976_step1",
+      "label": 0.0,
+      "label_value": [
+        0.0,
+        5.8
+      ],
+      "baseline_prob": 0.44128960371017456,
+      "posttrain_prob": 0.3681222200393677,
+      "baseline_pred": 0,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_977_step1",
+      "label": 1.0,
+      "label_value": [
+        0.0,
+        22.3
+      ],
+      "baseline_prob": 0.582019031047821,
+      "posttrain_prob": 0.4819348454475403,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_978_step1",
+      "label": 1.0,
+      "label_value": [
+        35.1,
+        34.7
+      ],
+      "baseline_prob": 0.6327584385871887,
+      "posttrain_prob": 0.596776008605957,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    },
+    {
+      "source_file": "sz_979_step1",
+      "label": 0.0,
+      "label_value": [
+        3.5,
+        0.0
+      ],
+      "baseline_prob": 0.5011605620384216,
+      "posttrain_prob": 0.41137146949768066,
+      "baseline_pred": 1,
+      "posttrain_pred": 0
+    },
+    {
+      "source_file": "sz_980_step1",
+      "label": 1.0,
+      "label_value": [
+        26.8,
+        32.6
+      ],
+      "baseline_prob": 0.6428723931312561,
+      "posttrain_prob": 0.605835497379303,
+      "baseline_pred": 1,
+      "posttrain_pred": 1
+    }
+  ]
+}

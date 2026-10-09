@@ -1,0 +1,41 @@
+{
+  "internal": {
+    "n": 820.0,
+    "mean_frobenius": 35726.494819884065,
+    "std_frobenius": 42470.560599908255,
+    "mean_per_cell_std": 77.6872016868395,
+    "median_per_cell_std": 43.85428644477166
+  },
+  "external": {
+    "n": 454.0,
+    "mean_frobenius": 35569.15259044251,
+    "std_frobenius": 5195.856195522769,
+    "mean_per_cell_std": 58.430271965777855,
+    "median_per_cell_std": 35.13696763862893
+  },
+  "km_shape": [
+    96,
+    238
+  ],
+  "pca_joint": {
+    "explained_variance_ratio_pc1": 0.8709228179659462,
+    "explained_variance_ratio_pc2": 0.04759653353714861,
+    "explained_variance_ratio_pc1_pc2": 0.9185193515030948
+  },
+  "per_cell_std_max": {
+    "internal": 11122.842577734462,
+    "external": 368.8172342650104
+  },
+  "per_cell_std_p99": {
+    "internal": 292.40358386181487,
+    "external": 256.5123067742902
+  },
+  "internal_patches_by_directory": {
+    "train_sz_pkl^1": 520,
+    "test_sz_pkl^1": 300
+  },
+  "external_patches_by_directory": {
+    "test_pk_pkl^1": 155,
+    "test_dk_pkl^1": 299
+  }
+}

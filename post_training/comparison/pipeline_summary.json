@@ -1,0 +1,82 @@
+{
+  "support": {
+    "pos": 884,
+    "neg": 885
+  },
+  "holdout_n_subjects": 95,
+  "holdout_pkl_dir": "C:\\Users\\Olive\\Desktop\\Nature_Style\\code_video\\pytorch\\post_training\\holdout_pkl",
+  "baseline_inference_dir": "C:\\Users\\Olive\\Desktop\\Nature_Style\\code_video\\pytorch\\post_training\\holdout_pkl\\inference_baseline",
+  "posttrain_inference_dir": "C:\\Users\\Olive\\Desktop\\Nature_Style\\code_video\\pytorch\\post_training\\holdout_pkl\\inference_posttrain",
+  "posttrain_checkpoint": "C:\\Users\\Olive\\Desktop\\Nature_Style\\code_video\\pytorch\\post_training\\checkpoints\\checkpoint_posttrain_head.pth",
+  "base_checkpoint": "C:\\Users\\Olive\\Desktop\\ScoliDetect_deployversion\\checkpoints\\kfold5_kvt_vivit_pretrained_cobb11\\fold_1\\checkpoint_best.pth",
+  "baseline_metrics": {
+    "threshold": 0.5,
+    "n_total": 93,
+    "n_labeled": 93,
+    "n_unlabeled": 0,
+    "label_distribution": {
+      "0.0": 41,
+      "1.0": 52
+    },
+    "tp": 43,
+    "tn": 15,
+    "fp": 26,
+    "fn": 9,
+    "confusion_matrix": {
+      "labels": [
+        0,
+        1
+      ],
+      "matrix": [
+        [
+          15,
+          26
+        ],
+        [
+          9,
+          43
+        ]
+      ]
+    },
+    "accuracy": 0.6236559139114349,
+    "precision": 0.6231884057067844,
+    "recall": 0.8269230767640532,
+    "f1": 0.7107437966341097,
+    "auc_roc": 0.7030956848030019
+  },
+  "posttrain_metrics": {
+    "threshold": 0.5,
+    "n_total": 93,
+    "n_labeled": 93,
+    "n_unlabeled": 0,
+    "label_distribution": {
+      "0.0": 41,
+      "1.0": 52
+    },
+    "tp": 29,
+    "tn": 32,
+    "fp": 9,
+    "fn": 23,
+    "confusion_matrix": {
+      "labels": [
+        0,
+        1
+      ],
+      "matrix": [
+        [
+          32,
+          9
+        ],
+        [
+          23,
+          29
+        ]
+      ]
+    },
+    "accuracy": 0.6559139784240953,
+    "precision": 0.763157894536011,
+    "recall": 0.5576923075850592,
+    "f1": 0.6444444394222223,
+    "auc_roc": 0.6946529080675422
+  }
+}

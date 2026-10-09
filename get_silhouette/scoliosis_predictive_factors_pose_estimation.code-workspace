@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../scoliosis_predictive_factors_pose_estimation"
+		},
+		{
+			"path": "../../../../videoencoders"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"powershell.cwd": "code_video"
+	}
+}

@@ -1,0 +1,2830 @@
+{
+  "subgroup": [
+    {
+      "index": 9,
+      "label": [
+        0.0,
+        22.5
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 10,
+      "label": [
+        0.0,
+        16.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 11,
+      "label": [
+        0.0,
+        36.9
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 12,
+      "label": [
+        0.0,
+        22.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 14,
+      "label": [
+        0.0,
+        50.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 15,
+      "label": [
+        0.0,
+        40.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 16,
+      "label": [
+        0.0,
+        24.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 17,
+      "label": [
+        0.0,
+        22.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 18,
+      "label": [
+        0.0,
+        13.3
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 19,
+      "label": [
+        0.0,
+        38.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 20,
+      "label": [
+        53.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 21,
+      "label": [
+        26.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 23,
+      "label": [
+        40.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 24,
+      "label": [
+        19.4,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 25,
+      "label": [
+        0.0,
+        39.9
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 26,
+      "label": [
+        27.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 27,
+      "label": [
+        0.0,
+        29.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 28,
+      "label": [
+        0.0,
+        31.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 29,
+      "label": [
+        27.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 30,
+      "label": [
+        18.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 31,
+      "label": [
+        27.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 32,
+      "label": [
+        25.4,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 33,
+      "label": [
+        0.0,
+        25.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 34,
+      "label": [
+        19.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 35,
+      "label": [
+        27.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 36,
+      "label": [
+        13.9,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 40,
+      "label": [
+        0.0,
+        36.6
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 41,
+      "label": [
+        22.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 42,
+      "label": [
+        0.0,
+        18.3
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 43,
+      "label": [
+        42.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 44,
+      "label": [
+        48.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 46,
+      "label": [
+        20.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 47,
+      "label": [
+        31.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 48,
+      "label": [
+        0.0,
+        45.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 49,
+      "label": [
+        0.0,
+        42.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 51,
+      "label": [
+        0.0,
+        21.8
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 52,
+      "label": [
+        29.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 53,
+      "label": [
+        19.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 54,
+      "label": [
+        31.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 56,
+      "label": [
+        0.0,
+        17.6
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 57,
+      "label": [
+        44.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 58,
+      "label": [
+        0.0,
+        36.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 59,
+      "label": [
+        18.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 60,
+      "label": [
+        25.7,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 61,
+      "label": [
+        0.0,
+        25.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 62,
+      "label": [
+        20.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 63,
+      "label": [
+        0.0,
+        51.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 64,
+      "label": [
+        39.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 65,
+      "label": [
+        0.0,
+        15.2
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 66,
+      "label": [
+        0.0,
+        24.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 67,
+      "label": [
+        30.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 68,
+      "label": [
+        0.0,
+        55.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 69,
+      "label": [
+        24.8,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 70,
+      "label": [
+        26.7,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 71,
+      "label": [
+        0.0,
+        48.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 72,
+      "label": [
+        0.0,
+        27.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 73,
+      "label": [
+        0.0,
+        58.9
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 74,
+      "label": [
+        0.0,
+        23.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 75,
+      "label": [
+        19.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 76,
+      "label": [
+        32.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 77,
+      "label": [
+        37.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 78,
+      "label": [
+        26.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 79,
+      "label": [
+        0.0,
+        43.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 80,
+      "label": [
+        15.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 81,
+      "label": [
+        0.0,
+        39.1
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 82,
+      "label": [
+        33.2,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 83,
+      "label": [
+        0.0,
+        39.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 84,
+      "label": [
+        0.0,
+        19.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 85,
+      "label": [
+        0.0,
+        74.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 88,
+      "label": [
+        25.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 89,
+      "label": [
+        31.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 90,
+      "label": [
+        21.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 91,
+      "label": [
+        34.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 92,
+      "label": [
+        0.0,
+        26.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 93,
+      "label": [
+        12.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 94,
+      "label": [
+        0.0,
+        49.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 95,
+      "label": [
+        0.0,
+        19.7
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 96,
+      "label": [
+        0.0,
+        36.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 97,
+      "label": [
+        0.0,
+        28.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 98,
+      "label": [
+        0.0,
+        36.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 99,
+      "label": [
+        0.0,
+        34.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 100,
+      "label": [
+        16.4,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 101,
+      "label": [
+        0.0,
+        11.3
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 102,
+      "label": [
+        54.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 103,
+      "label": [
+        48.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 104,
+      "label": [
+        22.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 105,
+      "label": [
+        0.0,
+        25.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 106,
+      "label": [
+        33.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 107,
+      "label": [
+        22.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 108,
+      "label": [
+        0.0,
+        38.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 109,
+      "label": [
+        0.0,
+        20.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 110,
+      "label": [
+        32.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 111,
+      "label": [
+        21.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 112,
+      "label": [
+        0.0,
+        20.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 113,
+      "label": [
+        26.4,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 114,
+      "label": [
+        24.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 115,
+      "label": [
+        0.0,
+        26.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 116,
+      "label": [
+        50.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 117,
+      "label": [
+        22.8,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 118,
+      "label": [
+        0.0,
+        47.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 119,
+      "label": [
+        20.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 120,
+      "label": [
+        0.0,
+        28.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 121,
+      "label": [
+        22.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 122,
+      "label": [
+        0.0,
+        28.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 123,
+      "label": [
+        20.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 124,
+      "label": [
+        0.0,
+        31.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 125,
+      "label": [
+        0.0,
+        43.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 126,
+      "label": [
+        0.0,
+        28.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 127,
+      "label": [
+        0.0,
+        32.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 128,
+      "label": [
+        27.9,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 129,
+      "label": [
+        26.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 130,
+      "label": [
+        0.0,
+        45.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 131,
+      "label": [
+        0.0,
+        29.2
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 132,
+      "label": [
+        40.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 133,
+      "label": [
+        36.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 134,
+      "label": [
+        49.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 135,
+      "label": [
+        0.0,
+        32.6
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 136,
+      "label": [
+        0.0,
+        17.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 137,
+      "label": [
+        0.0,
+        27.9
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 138,
+      "label": [
+        0.0,
+        22.8
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 139,
+      "label": [
+        0.0,
+        18.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 140,
+      "label": [
+        0.0,
+        25.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 141,
+      "label": [
+        24.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 142,
+      "label": [
+        35.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 143,
+      "label": [
+        12.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 144,
+      "label": [
+        30.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 145,
+      "label": [
+        0.0,
+        36.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 146,
+      "label": [
+        19.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 147,
+      "label": [
+        24.4,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 148,
+      "label": [
+        0.0,
+        17.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 149,
+      "label": [
+        0.0,
+        49.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 150,
+      "label": [
+        0.0,
+        56.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 151,
+      "label": [
+        28.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 152,
+      "label": [
+        0.0,
+        30.9
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 153,
+      "label": [
+        0.0,
+        20.8
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 154,
+      "label": [
+        0.0,
+        39.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 155,
+      "label": [
+        0.0,
+        15.5
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 156,
+      "label": [
+        0.0,
+        33.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 157,
+      "label": [
+        40.4,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 158,
+      "label": [
+        0.0,
+        50.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 159,
+      "label": [
+        11.2,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 160,
+      "label": [
+        55.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 161,
+      "label": [
+        51.5,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 162,
+      "label": [
+        0.0,
+        42.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 163,
+      "label": [
+        71.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 164,
+      "label": [
+        0.0,
+        42.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 165,
+      "label": [
+        17.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 166,
+      "label": [
+        0.0,
+        17.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 167,
+      "label": [
+        0.0,
+        54.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 168,
+      "label": [
+        24.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 169,
+      "label": [
+        33.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 170,
+      "label": [
+        0.0,
+        44.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 171,
+      "label": [
+        0.0,
+        25.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 172,
+      "label": [
+        0.0,
+        44.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 173,
+      "label": [
+        0.0,
+        19.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 174,
+      "label": [
+        0.0,
+        50.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 175,
+      "label": [
+        25.2,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 176,
+      "label": [
+        0.0,
+        41.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 177,
+      "label": [
+        39.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 178,
+      "label": [
+        0.0,
+        37.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 179,
+      "label": [
+        23.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 180,
+      "label": [
+        0.0,
+        23.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 181,
+      "label": [
+        22.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 183,
+      "label": [
+        33.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 184,
+      "label": [
+        30.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 185,
+      "label": [
+        40.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 186,
+      "label": [
+        0.0,
+        46.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 187,
+      "label": [
+        19.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 188,
+      "label": [
+        13.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 189,
+      "label": [
+        0.0,
+        25.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 190,
+      "label": [
+        0.0,
+        22.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 191,
+      "label": [
+        0.0,
+        14.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 192,
+      "label": [
+        0.0,
+        44.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 193,
+      "label": [
+        0.0,
+        20.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 194,
+      "label": [
+        33.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 195,
+      "label": [
+        0.0,
+        30.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 196,
+      "label": [
+        0.0,
+        75.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 197,
+      "label": [
+        49.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 198,
+      "label": [
+        32.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 199,
+      "label": [
+        0.0,
+        49.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 200,
+      "label": [
+        0.0,
+        19.5
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 201,
+      "label": [
+        29.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 202,
+      "label": [
+        50.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 203,
+      "label": [
+        0.0,
+        25.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 204,
+      "label": [
+        0.0,
+        22.5
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 205,
+      "label": [
+        0.0,
+        25.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 206,
+      "label": [
+        39.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 207,
+      "label": [
+        27.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 208,
+      "label": [
+        34.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 209,
+      "label": [
+        0.0,
+        37.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 210,
+      "label": [
+        0.0,
+        44.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 211,
+      "label": [
+        36.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 212,
+      "label": [
+        29.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 213,
+      "label": [
+        0.0,
+        30.3
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 214,
+      "label": [
+        0.0,
+        22.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 215,
+      "label": [
+        25.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 216,
+      "label": [
+        25.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 217,
+      "label": [
+        24.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 218,
+      "label": [
+        0.0,
+        19.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 219,
+      "label": [
+        21.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 220,
+      "label": [
+        0.0,
+        54.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 221,
+      "label": [
+        0.0,
+        43.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 222,
+      "label": [
+        0.0,
+        30.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 224,
+      "label": [
+        22.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 225,
+      "label": [
+        43.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 226,
+      "label": [
+        0.0,
+        23.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 229,
+      "label": [
+        23.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 231,
+      "label": [
+        25.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 232,
+      "label": [
+        0.0,
+        52.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 233,
+      "label": [
+        0.0,
+        37.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 234,
+      "label": [
+        47.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 235,
+      "label": [
+        24.2,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 236,
+      "label": [
+        18.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 237,
+      "label": [
+        0.0,
+        25.6
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 238,
+      "label": [
+        25.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 239,
+      "label": [
+        45.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 240,
+      "label": [
+        0.0,
+        20.5
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 241,
+      "label": [
+        70.4,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 242,
+      "label": [
+        30.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 243,
+      "label": [
+        0.0,
+        44.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 244,
+      "label": [
+        21.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 245,
+      "label": [
+        28.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 246,
+      "label": [
+        29.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 247,
+      "label": [
+        38.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 248,
+      "label": [
+        15.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 249,
+      "label": [
+        25.5,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 250,
+      "label": [
+        0.0,
+        21.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 251,
+      "label": [
+        0.0,
+        35.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 252,
+      "label": [
+        55.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 253,
+      "label": [
+        47.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 254,
+      "label": [
+        48.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 255,
+      "label": [
+        43.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 256,
+      "label": [
+        0.0,
+        57.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 257,
+      "label": [
+        29.4,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 258,
+      "label": [
+        25.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 259,
+      "label": [
+        23.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 260,
+      "label": [
+        18.3,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 261,
+      "label": [
+        18.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 262,
+      "label": [
+        30.8,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 263,
+      "label": [
+        0.0,
+        26.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 264,
+      "label": [
+        0.0,
+        19.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 265,
+      "label": [
+        20.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 266,
+      "label": [
+        10.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 268,
+      "label": [
+        0.0,
+        36.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 269,
+      "label": [
+        0.0,
+        30.7
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 270,
+      "label": [
+        0.0,
+        10.3
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 271,
+      "label": [
+        0.0,
+        34.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 272,
+      "label": [
+        20.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 273,
+      "label": [
+        0.0,
+        47.8
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 274,
+      "label": [
+        14.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 275,
+      "label": [
+        16.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 276,
+      "label": [
+        21.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 277,
+      "label": [
+        0.0,
+        46.5
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 278,
+      "label": [
+        21.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 279,
+      "label": [
+        0.0,
+        36.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 280,
+      "label": [
+        0.0,
+        14.8
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 281,
+      "label": [
+        14.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 282,
+      "label": [
+        22.8,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 283,
+      "label": [
+        17.8,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 284,
+      "label": [
+        0.0,
+        14.3
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 285,
+      "label": [
+        0.0,
+        43.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 288,
+      "label": [
+        0.0,
+        30.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 289,
+      "label": [
+        0.0,
+        20.2
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 290,
+      "label": [
+        37.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 291,
+      "label": [
+        12.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 292,
+      "label": [
+        0.0,
+        14.9
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 293,
+      "label": [
+        0.0,
+        18.3
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 294,
+      "label": [
+        0.0,
+        28.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 295,
+      "label": [
+        18.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 296,
+      "label": [
+        26.4,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 297,
+      "label": [
+        0.0,
+        23.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 298,
+      "label": [
+        0.0,
+        50.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 299,
+      "label": [
+        0.0,
+        26.1
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 300,
+      "label": [
+        0.0,
+        13.9
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 301,
+      "label": [
+        0.0,
+        35.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 302,
+      "label": [
+        0.0,
+        32.5
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 303,
+      "label": [
+        19.8,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 304,
+      "label": [
+        44.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 305,
+      "label": [
+        0.0,
+        53.7
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 306,
+      "label": [
+        19.4,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 307,
+      "label": [
+        35.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 308,
+      "label": [
+        13.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 309,
+      "label": [
+        17.1,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 310,
+      "label": [
+        30.5,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 311,
+      "label": [
+        0.0,
+        32.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 312,
+      "label": [
+        28.0,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 313,
+      "label": [
+        0.0,
+        37.2
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 314,
+      "label": [
+        0.0,
+        29.7
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 315,
+      "label": [
+        0.0,
+        44.9
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 316,
+      "label": [
+        30.7,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 318,
+      "label": [
+        44.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 319,
+      "label": [
+        15.2,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 320,
+      "label": [
+        20.5,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 321,
+      "label": [
+        0.0,
+        27.5
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 322,
+      "label": [
+        27.9,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 323,
+      "label": [
+        48.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 324,
+      "label": [
+        22.5,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 325,
+      "label": [
+        0.0,
+        27.1
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 328,
+      "label": [
+        17.9,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 329,
+      "label": [
+        18.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 330,
+      "label": [
+        22.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 331,
+      "label": [
+        11.3,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 332,
+      "label": [
+        0.0,
+        42.7
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 333,
+      "label": [
+        32.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 334,
+      "label": [
+        26.8,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "lumbar"
+    },
+    {
+      "index": 335,
+      "label": [
+        27.1,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 336,
+      "label": [
+        24.6,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 337,
+      "label": [
+        0.0,
+        31.4
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 338,
+      "label": [
+        0.0,
+        34.8
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 339,
+      "label": [
+        0.0,
+        50.4
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 340,
+      "label": [
+        22.6,
+        0.0
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 341,
+      "label": [
+        14.5,
+        0.0
+      ],
+      "label1": "single",
+      "label2": "thoracic"
+    },
+    {
+      "index": 342,
+      "label": [
+        0.0,
+        32.4
+      ],
+      "label1": "multi",
+      "label2": null
+    },
+    {
+      "index": 343,
+      "label": [
+        0.0,
+        46.9
+      ],
+      "label1": "multi",
+      "label2": null
+    }
+  ]
+}
