@@ -221,6 +221,6 @@ Use is governed by the [ScoliDetect Research and Evaluation License](LICENSE), w
 Orthopaedic Centre, The University of Hong Kong–Shenzhen Hospital, Shenzhen, China.
 Department of Orthopaedics & Traumatology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China.
 
-**Email:** [olichen@connect.hku.hk](mailto:olichen@connect.hku.hk)
+**Email:** [olichen@connect.hku.hk](mailto:olichen@connect.hku.hk), [oliver.cd@outlook.com](mailto:oliver.cd@outlook.com)
 
-For collaboration, data access, deployment, or licensing, use that address or open a [GitHub issue](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening/issues).
+For collaboration, data access, deployment, or licensing, use either address or open a [GitHub issue](https://github.com/Oli21-chen/ScoliDetect_HKU_SpineSeek_AISscreening/issues).
